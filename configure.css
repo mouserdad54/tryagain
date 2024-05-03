@@ -1,0 +1,258 @@
+background{background: fixed;}
+
+.welcomepic{
+    border: darkgray;
+    position: absolute;
+    width:500px;
+    height:200px;
+    font-size: 80px;
+    text-align: center;
+    top:200px;
+    text-decoration-color: azure;
+
+}
+
+
+
+.title {color: #ff1493;
+border-style: solid;
+border-width: 10px;
+border-color:black;
+padding: 5px;
+border-radius: 10 white;
+text-align: center;
+margin: 5px;
+font-size:xx-large;
+background-color: pink;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 800;
+position:fixed;
+width:100%;
+top:5px;
+align-content: center;
+}
+
+
+.mbio {
+border-style:hidden;
+font-size: x-large;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+align-self:auto;
+padding: 10px;
+left:1150px;
+top:45px;
+background-color:#ff1493;
+font-weight: 800;
+border-radius: 150px;
+position:fixed;
+}
+.mbio:hover{background-color: cornflowerblue;
+transition: 0.7s;}
+.sbio {
+    border-style:hidden;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left:100px;
+    top:45px;
+    align-self:auto;
+    padding: 10px;
+    border-radius: 150px;
+    background-color: cornflowerblue;
+    font-weight: 800;
+    }
+    .sbio:hover{background-color: #ff1493;
+    transition: 0.7s;}
+
+.button{
+border-style:hidden;
+font-weight: 900;
+font:oblique 0.5;
+align-content: center;
+background:none;}
+
+.button:hover{background-color: antiquewhite;
+transition: 0.5s;
+color: blueviolet;}
+
+.button1{
+    position: relative;
+    border-radius: 30%;
+    border-style:hidden;
+    color: black;
+    top: -150px;
+    font-weight: 900;
+    font:oblique 0.5;
+    align-content: center;
+    background:none}
+    .button1:hover{background-color: antiquewhite;
+        transition: 0.5s;
+        color:rgba(94, 241, 160, 0.945);}
+
+.returnbutton{border-style: solid;
+    position: relative;
+    left:1250px;
+    font-weight: 900;
+    top:-200px;
+
+    font:oblique 0.5;
+    background-color:aqua;}
+
+.martha{text-decoration: double;
+    border-style:double;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 500px;
+    height:800PX;
+    font-size: x-large;
+    color:antiquewhite;
+    font-weight:800;
+    padding: 10px;
+    border-width: 8px;
+    background-color:#ff1493;
+    position:relative;
+    z-index:-1;
+    left: 925px;
+    top: 140px;}
+.martha:hover{border-color: black;
+transition-duration: 0.4s;}
+
+
+body{background-size: cover;
+background-attachment: fixed;
+width:fit-content;}
+
+.pictitle{color:antiquewhite;
+    border-style:solid;
+    border-width: 100px;
+    border-color:black;
+    padding: 5px;
+    border-radius: 65%;
+    width:50px;
+    height: 50px;
+    align-items: center;
+    
+    text-align: center;
+    font-size:xx-large;
+    background-color:pink;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    position:relative;
+    left: 950px;
+   top:10px;
+    align-content: center;
+     }
+
+
+
+
+.poem {border-style:double;
+border-width: 10px;
+font-family: 'Times New Roman', Times, serif;
+color:white;
+padding:6px;
+z-index:-1;
+font-size: x-large;
+background-color:cornflowerblue;
+position:absolute;
+top:225px;}
+
+.poem:hover{border-color: black;
+transition-duration: 0.4s;}
+
+.contact{position:relative;
+text-decoration: solid;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size:xx-large;
+
+
+text-align: center;
+bottom:-330px;
+width:400px;
+height:400px;
+left:1000px;
+z-index:2;}
+
+footer {position:absolute;
+width:100%;
+overflow: visible;
+top: 1100px;
+border-style: double;
+border-width: 20px;
+height: 500px;
+align-self: center;
+background-color: blueviolet;}
+
+.list-pict{
+    position: relative;
+display: inline;
+margin: 20px;
+width: 200px;
+height: 300px;
+left:650px;}
+
+.biopage{
+    position: relative;
+    border-color: black;
+    padding: 50px;
+    background-color:rgb(233, 229, 222);
+    font-weight: 900;
+    font-size: xx-large;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sstory{
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background-color: floralwhite;
+    text-align: center;
+    border: wheat;
+    font-size: x-large;
+    left: 400px;
+}
+.sstory:hover{color: antiquewhite;
+background-color: black;
+transition-duration: 5.0s;}
+
+.cocoabio{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+    position: relative;
+    border: plum;
+    background-color:aliceblue;
+    text-align: center;
+     width: 900px;
+    left:400px;}
+    .cocoabio:hover{
+        transition-duration: 15.0s;
+        background-color:springgreen;
+    }
+
+
+
+
+
+    .cocoabeanwelcome {
+        text-align: center;
+        position: relative;
+        font-size: xx-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        color:black;
+        background-color: wheat;
+    height: 100px;
+left:400px;}
+
+.cocoabeanwelcome:hover{
+    color: antiquewhite;
+    background-color: skyblue;
+    transition-duration: 6.0s;
+}
+
+.cocoabackground{
+    color: lightyellow;
+}
