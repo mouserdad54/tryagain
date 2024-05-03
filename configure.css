@@ -141,7 +141,7 @@ width:fit-content;}
     align-content: center;
      }
      .pictitle:hover{
-        color: black;
+        color:chartreuse;
         background-color: blueviolet;
         transition-duration: 4.0s;
      }
