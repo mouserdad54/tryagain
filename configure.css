@@ -189,11 +189,11 @@ background-color: blueviolet;}
 .container{
     
 display: flex;
-justify-content: space-around;
+justify-content:center;
 margin: 20px;
 width: 200px;
 height: 300px;
-left:650px;}
+}
 
 .biopage{
     position: relative;
