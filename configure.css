@@ -191,6 +191,7 @@ display: flex;
 justify-content: space-around;
 border-style: double;
 background-color: black;
+border-radius: 30px;
 margin: 20px;
 width: 200px;
 top: 400px;
