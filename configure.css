@@ -177,6 +177,10 @@ z-index:2;
 
 footer {position:absolute;
 width:100%;
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+text-decoration: antiquewhite;
 overflow: visible;
 top: 1100px;
 border-style: double;
