@@ -193,6 +193,7 @@ background-color: blueviolet;}
     
 display: flex;
 justify-content:space-evenly;
+position: relative;
 border-style: double;
 background-color: black;
 top: 400px;
