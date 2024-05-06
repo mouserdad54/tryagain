@@ -91,7 +91,7 @@ color: blueviolet;}
 
 .returnbutton{border-style: solid;
     position: relative;
-    left:1250px;
+    left:400px;
     font-weight: 900;
     top:-200px;
 
@@ -167,14 +167,13 @@ transition-duration: 0.4s;}
 text-decoration: solid;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size:xx-large;
-
-
 text-align: center;
 bottom:-330px;
 width:400px;
 height:400px;
 left:1000px;
-z-index:2;}
+z-index:2;
+}
 
 footer {position:absolute;
 width:100%;
@@ -190,6 +189,8 @@ background-color: blueviolet;}
     
 display: flex;
 justify-content: space-around;
+border-style: double;
+background-color: black;
 margin: 20px;
 width: 200px;
 top: 400px;
