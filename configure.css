@@ -190,8 +190,7 @@ align-self: center;
 background-color: blueviolet;}
 
 .container{
-    
-display: flex;
+    display: flex;
 justify-content:space-evenly;
 position: relative;
 border-style: double;
@@ -199,6 +198,71 @@ background-color: black;
 top: 400px;
 padding: 30px;
 }
+
+.container1{
+    display: flex;
+justify-content:space-evenly;
+position: relative;
+border-style: double;
+background-color: black;
+top: 400px;
+padding: 30px;
+}
+
+.container2{
+    display: flex;
+justify-content:space-evenly;
+position: relative;
+border-style: double;
+background-color: black;
+top: 400px;
+padding: 30px;
+}
+.container3{
+    display: flex;
+justify-content:space-evenly;
+position: relative;
+border-style: double;
+background-color: black;
+top: 400px;
+padding: 30px;
+}
+
+.container4{
+    display: flex;
+justify-content:space-evenly;
+position: relative;
+border-style: double;
+background-color: black;
+top: 400px;
+padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .biopage{
     position: relative;
