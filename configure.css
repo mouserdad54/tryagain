@@ -219,7 +219,7 @@ padding: 30px;
 }
 .container3{
     display: flex;
-align-content:space-evenly;
+justify-content:space-evenly;
 position: relative;
 border-style: double;
 background-color: black;
