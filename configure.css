@@ -192,7 +192,7 @@ background-color: blueviolet;}
 .container{
     
 display: flex;
-justify-content: space-around;
+align-content: space-around;
 border-style: double;
 background-color: black;
 top: 400px;
