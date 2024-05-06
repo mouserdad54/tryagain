@@ -189,7 +189,7 @@ background-color: blueviolet;}
 .container{
     
 display: flex;
-justify-content:center;
+justify-content:space-around;
 margin: 20px;
 width: 200px;
 height: 300px;
