@@ -200,8 +200,6 @@ padding: 30px;
 }
 
 .container1{
-    display: flex;
-justify-content:space-evenly;
 position: relative;
 border-style: double;
 background-color: black;
