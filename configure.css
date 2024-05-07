@@ -195,7 +195,8 @@ padding: 20px;
 }
 
 .container1{
-    align-items: flex-end;
+    display: flex;
+    justify-items: flex-end;
     padding: 20px;
     
 }
