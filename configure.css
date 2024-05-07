@@ -195,16 +195,15 @@ padding: 20px;
 }
 
 .container1{
-    position: relative;
+    align-items: flex-end;
     padding: 20px;
-    border: white;
-    left:200px;
+    
 }
 
 .container2{
     align-items: flex-start;
     padding: 20px;
-    border: #ff1493;
+
       
 }
 .container3{
