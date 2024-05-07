@@ -190,8 +190,7 @@ align-self: center;
 background-color: blueviolet;}
 
 .container{
-    display: flex;
-justify-content:space-evenly;
+
 border-style: double;
 background-color: black;
 top: 400px;
@@ -205,24 +204,23 @@ padding: 30px;
 }
 
 .container2{
-    display: flex;
-justify-content:space-evenly;
+    
+
 border-style: double;
 background-color: black;
 
 padding: 30px;
 }
 .container3{
-    display: flex;
-justify-content:space-evenly;
+    
+
 border-style: double;
 background-color: black;
 padding: 30px;
 }
 
 .container4{
-    display: flex;
-justify-content:space-evenly;
+    
 border-style: double;
 background-color: black;
 padding: 30px;
