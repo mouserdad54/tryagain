@@ -190,22 +190,22 @@ align-self: center;
 background-color: blueviolet;}
 
 .container{
-
+align-items: flex-start;
 }
 
 .container1{
-
+    align-items: flex-start;
 }
 
 .container2{
-    
+    align-items: flex-start;   
 }
 .container3{
-    
+    align-items: flex-start;    
 }
 
 .container4{
-
+    align-items: flex-start;
 }
 
 
