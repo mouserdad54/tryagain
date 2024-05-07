@@ -209,7 +209,6 @@ padding: 30px;
 .container2{
     display: flex;
 justify-content:space-evenly;
-position: relative;
 border-style: double;
 background-color: black;
 
@@ -218,7 +217,6 @@ padding: 30px;
 .container3{
     display: flex;
 justify-content:space-evenly;
-position: relative;
 border-style: double;
 background-color: black;
 padding: 30px;
@@ -227,7 +225,6 @@ padding: 30px;
 .container4{
     display: flex;
 justify-content:space-evenly;
-position: relative;
 border-style: double;
 background-color: black;
 padding: 30px;
