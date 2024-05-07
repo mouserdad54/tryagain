@@ -191,22 +191,25 @@ background-color: blueviolet;}
 
 .container{
 align-items: flex-start;
+padding: 20px;
 }
 
 .container1{
     align-items: flex-start;
+    padding: 20px;
 }
 
 .container2{
-    align-items: flex-start;   
+    align-items: flex-start;
+    padding: 20px;   
 }
 .container3{
-    align-items: flex-start;    
+    align-items: flex-start;
+    padding: 20px;    
 }
 
 .container4{
-
-
+    padding: 20px;
     align-items: flex-start;
 }
 
