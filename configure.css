@@ -195,6 +195,7 @@ padding: 20px;
 }
 
 .container1{
+    position:relative;
 left:300px;
     padding: 20px;
     
