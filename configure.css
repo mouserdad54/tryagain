@@ -195,7 +195,7 @@ padding: 20px;
 }
 
 .container1{
-    align-items: flex-start;
+    position: relative;;
     padding: 20px;
     border: white;
     left:200px;
