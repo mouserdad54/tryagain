@@ -196,8 +196,8 @@ padding: 20px;
 }
 
 .container1{
-    display:flex;
-    align-items: center;
+    
+    align-content: center;
 left: 855px;
 top:425px;
 
@@ -205,8 +205,7 @@ top:425px;
 }
 
 .container2{
-    display:flex;
-    align-items: flex-start;
+    align-content: last baseline;
     padding: 20px;
 
       
