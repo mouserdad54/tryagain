@@ -29,7 +29,6 @@ font-weight: 800;
 position:fixed;
 width: 100%;
 top:5px;
-align-content: center;
 }
 
 
@@ -39,10 +38,10 @@ font-size: x-large;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 align-self:auto;
 padding: 10px;
-left:800px;
-top:85px;
+left:625px;
+top:200px;
 background-color:#ff1493;
-font-weight: 800;
+font-weight: 900;
 border-radius: 150px;
 position:fixed;
 }
