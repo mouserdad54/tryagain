@@ -189,9 +189,15 @@ height: 500px;
 align-self: center;
 background-color: blueviolet;}
 
+.grid{
+    border: 2px double black;
+    width: fit-content;
+    height: fit-content;
+
+}
+
 .container{
-    display:flex;
-align-items: flex-start;
+    align-content: center;  
 padding: 20px;
 }
 
@@ -217,8 +223,7 @@ top:425px;
 }
 
 .container4{
-    display:flex;
-    align-items: flex-end;
+    align-content: center;
     padding: 20px;
     }
 
