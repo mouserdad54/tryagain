@@ -190,12 +190,14 @@ align-self: center;
 background-color: blueviolet;}
 
 .container{
-align-items: flex-start;
+    display:flex;
+align-items: center;
 padding: 20px;
 }
 
 .container1{
-    position:absolute;
+    display:flex;
+    align-items: center;
 left: 855px;
 top:425px;
 
@@ -203,19 +205,23 @@ top:425px;
 }
 
 .container2{
-    align-items: flex-start;
+    display:flex;
+    align-items: center;
     padding: 20px;
 
       
 }
 .container3{
-    align-items: flex-start;
+    display:flex;
+    align-items: center;
     padding: 20px;    
 }
 
 .container4{
+    display:flex;
+    align-items: center;
     padding: 20px;
-    align-items: flex-start;
+    
 }
 
 .biopage{
