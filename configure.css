@@ -191,13 +191,13 @@ background-color: blueviolet;}
 
 .container{
     display:flex;
-align-items: stretch;
+align-items: flex-start;
 padding: 20px;
 }
 
 .container1{
     display:flex;
-    align-items: stretch;
+    align-items: center;
 left: 855px;
 top:425px;
 
@@ -206,20 +206,20 @@ top:425px;
 
 .container2{
     display:flex;
-    align-items: stretch;
+    align-items: flex-start;
     padding: 20px;
 
       
 }
 .container3{
     display:flex;
-    align-items: stretch;
+    align-items: center;
     padding: 20px;    
 }
 
 .container4{
     display:flex;
-    align-items: stretch;
+    align-items: flex-end;
     padding: 20px;
     }
 
