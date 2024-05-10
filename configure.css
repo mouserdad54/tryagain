@@ -241,6 +241,11 @@ top:425px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.biopage:hover{
+    color: blanchedalmond;
+    background-color: black;
+    transition-duration: .9s;
+}
 
 .sstory{
     display:flex;
