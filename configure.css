@@ -232,7 +232,8 @@ top:425px;
 }
 
 .sstory{
-    position: relative;
+    display:flex;
+    justify-content:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     background-color: floralwhite;
