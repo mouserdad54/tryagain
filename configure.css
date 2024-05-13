@@ -198,6 +198,8 @@ background-color: blueviolet;}
                         "container2  container2"
                         "container3  container3"
                         "container4  container4";
+                        grid-template-columns: 300px 300px;
+                        grid-template-rows: 400px 400px 400px 400px 400px;
 
 }
 
