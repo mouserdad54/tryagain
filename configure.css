@@ -202,7 +202,7 @@ background-color: blueviolet;}
                         grid-template-rows: 400px 400px 400px 400px 400px;
 position: relative;
 gap:40px;
-top:200px;
+bottom:200px;
 
 }
 
