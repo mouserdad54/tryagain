@@ -193,7 +193,6 @@ background-color: blueviolet;}
 
 .grid{
     display:grid;
-    top:10px;
     grid-template-areas: "container container"
                         "container1  container1"
                         "container2  container2"
@@ -202,37 +201,29 @@ background-color: blueviolet;}
                         grid-template-columns: 300px 300px;
                         grid-template-rows: 400px 400px 400px 400px 400px;
 gap:40px;
-
-
-
 }
 
 .container{
     grid-area:container;
     
     padding: auto;  
-
 }
 
 .container1{
     grid-area:container1;
     
-    padding: auto;  
-
-    
+    padding: auto;      
 }
 
 .container2{
     grid-area:container2;
 
     padding: auto;  
-
-      
 }
+
 .container3{
     grid-area:container3;
-    
-    padding: auto;  
+        padding: auto;  
 }
 
 .container4{
