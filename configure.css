@@ -201,7 +201,6 @@ background-color: blueviolet;}
                         "container4  container4";
                         grid-template-columns: 300px 300px;
                         grid-template-rows: 400px 400px 400px 400px 400px;
-position: relative;
 gap:40px;
 
 
