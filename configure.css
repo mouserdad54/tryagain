@@ -118,7 +118,7 @@ color: blueviolet;}
 transition-duration: 0.4s;}
 
 
-ody{background-size: cover;
+body{background-size: cover;
 background-attachment: fixed;
 width:fit-content;}
 
@@ -128,17 +128,12 @@ width:fit-content;}
     border-color:black;
     padding: 5px;
     border-radius: 65%;
-    width:50px;
-    height: 50px;
     align-items: center;
     text-align: center;
     font-size:xx-large;
     background-color:pink;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
-    position:relative;
-    left: 950px;
-   top:10px;
     align-content: center;
      }
      .pictitle:hover{
@@ -193,13 +188,15 @@ background-color: blueviolet;}
 
 .grid{
     display:grid;
-    grid-template-areas: "container container"
+    grid-template-areas:"pictitle pictitle"
+                        "returnbutton returnbutton" 
+                         "container container"
                         "container1  container1"
                         "container2  container2"
                         "container3  container3"
                         "container4  container4";
                         grid-template-columns: 300px 300px;
-                        grid-template-rows: 400px 400px 400px 400px 400px;
+                        grid-template-rows: 400px 400px 400px 400px 400px 400px 400px;
                         max-width: 900px;
                         position: relative;
                         margin: auto;
