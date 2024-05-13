@@ -192,19 +192,23 @@ height: 500px;
 background-color: blueviolet;}
 
 .grid{
-    border: 2px double black;
-    width:100%;
-
+    display:grid;
+    grid-template-area: "container container"
+                        "container1  container1"
+                        "container2  container2"
+                        "container3  container3"
+                        "container4  container4"
 
 }
 
 .container{
+    grid-area:container;
     align-content: center;  
 padding: 20px;
 }
 
 .container1{
-    
+    grid-area:container1;
     align-content: center;
 left: 855px;
 top:425px;
@@ -213,18 +217,20 @@ top:425px;
 }
 
 .container2{
+    grid-area:container2;
     align-content: center;
     padding: 20px;
 
       
 }
 .container3{
-    
+    grid-area:container3;
     align-content: center;
     padding: 20px;    
 }
 
 .container4{
+    grid-area:container4;
     align-content: center;
     padding: 20px;
     }
