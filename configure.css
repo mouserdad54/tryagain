@@ -190,14 +190,13 @@ background-color: blueviolet;}
 
 .grid{
     display:grid;
-    grid-template-areas:"pictitle pictitle"
-                        "returnbutton returnbutton" 
-                         "container container"
-                        "container1  container1"
-                        "container2  container2"
-                        "container3  container3"
-                        "container4  container4";
-                        grid-template-columns: 300px 300px;
+    grid-template-areas:"returnbutton pictitle"
+                          "container container"
+                          "container1 container1"
+                          "container2 container2"
+                          "container3 container3"
+                          "container4 container4";
+                        grid-template-columns: 900px 900px;
                         grid-template-rows: 400px 400px 400px 400px 400px 400px 400px;
                         max-width: 900px;
                         position: relative;
