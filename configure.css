@@ -203,7 +203,7 @@ background-color: blueviolet;}
                         grid-template-rows: 400px 400px 400px 400px 400px;
 position: relative;
 gap:40px;
-bottom:1200px;
+margin-top: 1200px;
 
 
 }
