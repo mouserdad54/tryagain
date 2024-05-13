@@ -193,7 +193,7 @@ background-color: blueviolet;}
 
 .grid{
     display:grid;
-    
+    top:10px;
     grid-template-areas: "container container"
                         "container1  container1"
                         "container2  container2"
