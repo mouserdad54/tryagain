@@ -137,6 +137,7 @@ width:fit-content;}
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     align-content: center;
+    top: 100vh;
      }
      .pictitle:hover{
         color:chartreuse;
@@ -190,7 +191,7 @@ background-color: blueviolet;}
 
 .grid {
     display: grid;
-    grid-template-areas:"returnbutton pictitle"
+    grid-template-areas: "returnbutton pictitle"
                           "container container"
                           "container1 container1"
                           "container2 container2"
