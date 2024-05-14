@@ -200,7 +200,7 @@ background-color: blueviolet;}
                           "container4 container4"
                           "pictfooter pictfooter";
                         grid-template-columns: 2fr 2fr 2fr 2fr;
-                        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
                         background-color: aqua;
                         position: relative;
                         margin: auto;
