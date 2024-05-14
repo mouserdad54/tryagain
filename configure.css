@@ -199,8 +199,8 @@ background-color: blueviolet;}
                           "container3 container3"
                           "container4 container4"
                           "pictfooter pictfooter";
-                        grid-template-columns: 2fr 2fr 2fr 2fr;
-                        grid-template-rows: 1fr 1fr 1fr;
+                        grid-template-columns: 2fr 2fr ;
+                        grid-template-rows: 1fr 1fr;
                         background-color: aqua;
                         position: relative;
                         text-align: center;
