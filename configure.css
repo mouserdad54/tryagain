@@ -310,7 +310,7 @@ transition-duration: 5.0s;}
     background-color:aliceblue;
     text-align: center;
      width: 900px;
-    left:400px;}
+    left:100px;}
     .cocoabio:hover{
         transition-duration: 15.0s;
         background-color:springgreen;
