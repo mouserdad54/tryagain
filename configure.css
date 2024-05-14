@@ -188,8 +188,8 @@ border-width: 20px;
 height: 500px;
 background-color: blueviolet;}
 
-.grid{
-    display:grid;
+.grid {
+    display: grid;
     grid-template-areas:"returnbutton pictitle"
                           "container container"
                           "container1 container1"
