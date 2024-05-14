@@ -197,7 +197,8 @@ background-color: blueviolet;}
                           "container1 container1"
                           "container2 container2"
                           "container3 container3"
-                          "container4 container4";
+                          "container4 container4"
+                          "pictfooter pictfooter";
                         grid-template-columns: 2fr 2fr;
                         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
                         background-color: aqua;
@@ -234,7 +235,15 @@ background-color: blueviolet;}
     
     padding: auto;  
     }
+.pictfooter{
+grid-area:pictfooter;
+padding:auto;
+border: 2px double black;
+font-weight: 900;
+font-size: x-large;
 
+
+}
 .biopage{
     position: relative;
     border-color: black;
@@ -262,8 +271,10 @@ background-color: blueviolet;}
     text-align: center;
     border: wheat;
     font-size: x-large;
-
 }
+
+
+
 .sstory:hover{color: antiquewhite;
 background-color: black;
 transition-duration: 5.0s;}
