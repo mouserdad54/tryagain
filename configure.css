@@ -111,7 +111,9 @@ color: blueviolet;}
     position: relative;
     font-weight: 900;
     font:oblique 0.5;
-    background-color:aqua;}
+    background-color:beige;
+    font-size: xx-large;
+    align-self: center; }
 
 .martha{text-decoration: double;
     border-style:double;
@@ -212,7 +214,7 @@ background-color: blueviolet;}
                           "container4 container4"
                           "pictfooter pictfooter";
                         grid-template-columns: 2fr 2fr ;
-                        grid-template-rows: 1fr 1fr;
+                        grid-template-rows: 1fr 1fr 1fr;
                         background-color: aqua;
                         position: relative;
                         text-align: center;
