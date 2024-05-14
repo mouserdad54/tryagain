@@ -205,7 +205,8 @@ background-color: blueviolet;}
                         position: relative;
                         border:5px solid black;
                         margin: auto;
-                        gap: 20px;
+                        font-size: x-large;
+                        font-weight: 900;
 }
 
 .container{
