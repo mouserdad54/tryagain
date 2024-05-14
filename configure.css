@@ -306,7 +306,7 @@ transition-duration: 5.0s;}
     font-weight: 800;
     font-size: x-large;
     position: relative;
-    border: plum;
+    border: 5px solid plum;
     background-color:aliceblue;
     text-align: center;
      width: 900px;
@@ -328,8 +328,8 @@ transition-duration: 5.0s;}
         font-weight: 900;
         color:black;
         background-color: wheat;
-    height: 100px;
-left:400px;}
+        height: 100px;
+        left:100px;}
 
 .cocoabeanwelcome:hover{
     color: antiquewhite;
