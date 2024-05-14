@@ -196,9 +196,9 @@ background-color: blueviolet;}
                           "container2 container2"
                           "container3 container3"
                           "container4 container4";
-                        grid-template-columns: 900px 900px;
+                        grid-template-columns: 2fr 2fr;
                         grid-template-rows: 400px 400px 400px 400px 400px 400px 400px;
-                        max-width: 900px;
+                        top: 100vh;
                         position: relative;
                         margin: auto;
                         gap: 10px;
