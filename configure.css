@@ -326,6 +326,7 @@ transition-duration: 5.0s;}
         font-size: xx-large;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 900;
+        border: 25px solid plum;
         color:black;
         background-color: wheat;
         height: 100px;
