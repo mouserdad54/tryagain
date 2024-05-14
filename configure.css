@@ -90,6 +90,21 @@ color: blueviolet;}
         transition: 0.5s;
         color:rgba(94, 241, 160, 0.945);}
 
+        .button2{
+            border-style:hidden;
+            font-weight: 900;
+            font:oblique 0.5;
+            align-content: center;
+            background:none;}
+            
+            .button2:hover{background-color: antiquewhite;
+            transition: 0.5s;
+            color: blueviolet;}
+            
+
+
+
+
 .returnbutton{
     border-style: solid;
     grid-area:returnbutton;
