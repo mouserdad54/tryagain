@@ -90,13 +90,14 @@ color: blueviolet;}
         transition: 0.5s;
         color:rgba(94, 241, 160, 0.945);}
 
-.returnbutton{border-style: solid;
+.returnbutton{
+    border-style: solid;
     grid-area:returnbutton;
     position: relative;
-    left:400px;
+    left:350px;
     font-weight: 900;
     top:-200px;
-
+    
     font:oblique 0.5;
     background-color:aqua;}
 
@@ -202,7 +203,7 @@ background-color: blueviolet;}
                         background-color: aqua;
                         position: relative;
                         margin: auto;
-                        gap: 10px;
+                        gap: 20px;
 }
 
 .container{
