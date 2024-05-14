@@ -203,6 +203,7 @@ background-color: blueviolet;}
                         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
                         background-color: aqua;
                         position: relative;
+                        border:5px solid black;
                         margin: auto;
                         gap: 20px;
 }
@@ -241,6 +242,8 @@ padding:auto;
 border: 2px double black;
 font-weight: 900;
 font-size: x-large;
+background-color: aqua;
+
 
 
 }
