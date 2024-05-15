@@ -97,8 +97,8 @@ color: blueviolet;}
             align-content: center;
             background:none;}
             
-            .button2:hover{background-color: antiquewhite;
-            transition: 0.5s;
+            .button2:hover{
+            transition: 350ms linear;
             color: blueviolet;}
             
 
