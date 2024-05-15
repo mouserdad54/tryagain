@@ -191,6 +191,12 @@ left:700px;
 z-index:2;
 }
 
+.contact:hover{
+    max-width: 500px;
+    background-color: aquamarine;
+    transition:blue 350ms linear 20ms;
+}
+
 .homefooter {position:absolute;
 width:2400;
 font-size: xx-large;
