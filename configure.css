@@ -395,7 +395,7 @@ transition-duration: 5.0s;}
  .june {
     background-color: aqua;
     grid-area: june;
-    border: 10px solid black;
+    border: 1px solid black;
     font-size:large
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
