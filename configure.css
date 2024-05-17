@@ -16,7 +16,6 @@ background{background: fixed;}
 
 .title {color: #ff1493;
 border-style: solid;
-display:flex;
 align-content: center;
 border-width: 10px;
 border-color:black;
@@ -65,8 +64,11 @@ transition: 0.7s;}
     .sbio:hover{background-color: #ff1493;
     transition: 0.7s;}
 
-.button{
-border-style:hidden;
+.button3{
+border: 2px solid black;
+position: relative;
+right: 600px;
+top:-30px;
 font-weight: 900;
 font:oblique 0.5;
 align-content: center;
@@ -100,7 +102,21 @@ color: blueviolet;}
             .button2:hover{
             transition: 350ms linear;
             color: blueviolet;}
-            
+           
+    .button4{
+        border: 2px solid black;
+font-weight: 900;
+position: relative;
+top:-60px;
+left:500px;
+font:oblique 0.5;
+align-content: center;
+background:none;}
+
+.button:hover{background-color: antiquewhite;
+transition: 0.5s;
+color:lightgreen;}
+      
 
 
 
