@@ -368,7 +368,7 @@ transition-duration: 5.0s;}
 
 .wrapper-news{
     margin: 0 auto;
-    
+
 }
 
 .newsbox{
@@ -381,7 +381,7 @@ transition-duration: 5.0s;}
                           grid-template-columns: 25% 50% 25%;
                           grid-template-rows:2fr 2fr 2fr 2fr 2fr 2fr;
                         text-align: center;
-                        word-wrap: normal;
+                        word-wrap:auto;
                         position: relative;
                         gap: 20px;
                         padding: auto;
@@ -399,6 +399,7 @@ transition-duration: 5.0s;}
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: auto;
+    text-wrap:balance
  }
 
 .july {
