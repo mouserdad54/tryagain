@@ -348,3 +348,29 @@ transition-duration: 5.0s;}
 .cocoabackground{
     color: lightyellow;
 }
+
+
+.newsbox{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+}
+ .june{
+    background-color: aqua;
+ }
+
+.july{
+    background-color: beige;
+}
+
+.aug{
+    background-color: blueviolet;
+}
+
+
+.sept{
+    background-color: chartreuse;
+}
+
+
+
