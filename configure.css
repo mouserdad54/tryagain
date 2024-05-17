@@ -379,7 +379,7 @@ transition-duration: 5.0s;}
                           "june sept sept"
                           "footer footer footer";
                           grid-template-columns: 25% 50% 25%;
-                          grid-template-rows:2fr 2fr 2fr 2fr 2fr 2fr;
+                          
                         text-align: center;
                         word-wrap:auto;
                         position: relative;
@@ -389,6 +389,7 @@ transition-duration: 5.0s;}
                         height: auto;
                         margin: auto;
                         align-content: center;
+                        left:60px;
 }
 
  .june {
