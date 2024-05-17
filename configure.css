@@ -361,19 +361,26 @@ transition-duration: 5.0s;}
 }
  .june{
     background-color: aqua;
+    grid-area: june;
+    
  }
 
 .july{
     background-color: beige;
+    grid-area: july;
 }
 
 .aug{
     background-color: blueviolet;
+    grid-area: aug;
+
 }
 
 
 .sept{
     background-color: chartreuse;
+    grid-area: sept;
+    
 }
 
 
