@@ -378,7 +378,7 @@ transition-duration: 5.0s;}
                           "june aug aug"
                           "june sept sept"
                           "footer footer footer";
-                          grid-template-columns: 25% 50% 25%;
+                          grid-template-columns: 30% 60% 10%;
                           
                         text-align: center;
                         word-wrap:auto;
