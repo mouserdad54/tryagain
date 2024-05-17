@@ -388,7 +388,7 @@ transition-duration: 5.0s;}
                         width:auto;
                         
                         margin: 0 auto;
-                        align-content: center;
+                        align-content:stretch;
                         left:60px;
 }
 
