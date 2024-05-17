@@ -352,35 +352,35 @@ transition-duration: 5.0s;}
 
 .newsbox{
     display:grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "june june june"
                           "july july july"
                           "aug aug aug"
                           "sept sept sept";
+                          grid-template-columns: 25% 50% 25%;
+                          grid-template-rows:1fr 1fr 1fr 1fr 1fr;
                         text-align: center;
                         border:5px solid black;
                         margin: auto;
                         font-size: xx-large;
                         font-weight: 900;
                         align-content: center;
-
 }
 
- .june{
+ .june {
     background-color: aqua;
     grid-area: june;
     
  }
 
-.july{
+.july {
     background-color: beige;
     grid-area: july;
 }
 
-.aug{
+.aug {
     background-color: blueviolet;
     grid-area: aug;
+    border: 3px dotted pink;
 
 }
 
