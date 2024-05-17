@@ -358,7 +358,15 @@ transition-duration: 5.0s;}
                           "july july july"
                           "aug aug aug"
                           "sept sept sept";
+                        text-align: center;
+                        border:5px solid black;
+                        margin: auto;
+                        font-size: xx-large;
+                        font-weight: 900;
+                        align-content: center;
+
 }
+
  .june{
     background-color: aqua;
     grid-area: june;
@@ -380,7 +388,7 @@ transition-duration: 5.0s;}
 .sept{
     background-color: chartreuse;
     grid-area: sept;
-    
+
 }
 
 
