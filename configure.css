@@ -107,8 +107,9 @@ color: blueviolet;}
         border: 2px solid black;
 font-weight: 900;
 position: relative;
-top:-60px;
-left:500px;
+top:-50px;
+left:400px;
+z-index: index 1;
 font:oblique 0.5;
 align-content: center;
 background:none;}
