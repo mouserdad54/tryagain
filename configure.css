@@ -354,6 +354,10 @@ transition-duration: 5.0s;}
     display:grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "june june june"
+                          "july july july"
+                          "aug aug aug"
+                          "sept sept sept";
 }
  .june{
     background-color: aqua;
