@@ -1,12 +1,12 @@
 background{background: fixed;}
 
 
-.header-grid {
+.headergrid {
     display: grid;
     background-color: blue;
-    grid-template-areas:"button3 title  button4"
-                         "sbio   title  mbio"
-                         "sbio    title mbio";
+    grid-template-areas:""
+                         ""
+                         "";
                          grid-template-rows:1fr 1fr 1fr;
                          grid-template-columns: 1fr 1fr 1fr;
                         
