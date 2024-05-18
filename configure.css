@@ -4,10 +4,8 @@ background{background: fixed;}
 .headergrid {
     display: grid;
     background-color: blue;
-    grid-template-areas:"button3"
-                         ""
-                         "";
-                         grid-template-rows:1fr 1fr 1fr;
+    grid-template-areas:"button3 title button4"
+                         "sbio title mbio";
                          grid-template-columns: 1fr 1fr 1fr;
                         
                     
@@ -21,8 +19,7 @@ background{background: fixed;}
 
 .title {color: #ff1493;
     grid-area: title;
-    right:300px;
-    display: grid;
+position: relative;
 border-style: solid;
 align-content: center;
 border-width: 10px;
@@ -40,7 +37,7 @@ font-weight: 800;
 
 .mbio {
     grid-area: mbio;
-    display: grid;
+    position: relative;
 border-style:hidden;
 font-size: x-large;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -55,7 +52,7 @@ transition: 0.7s;}
 
 .sbio {
     grid-area: sbio;
-    display: grid;
+    
     border-style:hidden;
     font-size: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -182,6 +179,7 @@ width:fit-content;}
 
 
 .poem {border-style:double;
+
 border-width: 10px;
 font-family: 'Times New Roman', Times, serif;
 color:white;
