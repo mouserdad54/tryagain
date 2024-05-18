@@ -1,20 +1,28 @@
 background{background: fixed;}
 
 
-.header-grid{
+.header-grid {
     display: grid;
-    grid-template-areas:"button3 title title button4"
-                         "sbio   title titlle mbio";
-                         grid-template-columns: 20% 60% 20%;
-                         position: relative;
+    background-color: blue;
+    grid-template-areas:"button3 title  button4"
+                         "sbio   title  mbio"
+                         "sbio    title mbio";
+                         grid-template-rows:1fr 1fr 1fr;
+                         grid-template-columns: 1fr 1fr 1fr;
+                        
+                    
                          text-align: center;
                          border:5px solid black;
-                         margin: auto;
+                         
+                         
+
 }
 
 
 .title {color: #ff1493;
     grid-area: title;
+    right:300px;
+    display: grid;
 border-style: solid;
 align-content: center;
 border-width: 10px;
@@ -27,37 +35,31 @@ font-size:xx-large;
 background-color: pink;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-weight: 800;
-position:fixed;
-width:100%;
-top:5px;
 }
 
 
 .mbio {
     grid-area: mbio;
+    display: grid;
 border-style:hidden;
 font-size: x-large;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-align-self:auto;
 padding: 10px;
-left:800px;
-top:130px;
 background-color:#ff1493;
 font-weight: 900;
 border-radius: 150px;
-position:fixed;
+
 }
 .mbio:hover{background-color: cornflowerblue;
 transition: 0.7s;}
+
 .sbio {
     grid-area: sbio;
+    display: grid;
     border-style:hidden;
     font-size: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: fixed;
-    left:300px;
-    top:130px;
-    align-self:auto;
+    position:relative;
     padding: 10px;
     border-radius: 150px;
     background-color: cornflowerblue;
@@ -70,12 +72,10 @@ transition: 0.7s;}
     grid-area: button3;
 border: 2px solid black;
 position: relative;
-right: 600px;
-top:-30px;
 font-weight: 900;
 font:oblique 0.5;
 align-content: center;
-background:none;}
+background:white;}
 
 .button:hover{background-color: antiquewhite;
 transition: 0.5s;
@@ -111,12 +111,9 @@ color: blueviolet;}
         border: 2px solid black;
 font-weight: 900;
 position: relative;
-top:-50px;
-left:400px;
-z-index: index 1;
 font:oblique 0.5;
 align-content: center;
-background:none;}
+background:white;}
 
 .button:hover{background-color: antiquewhite;
 transition: 0.5s;
