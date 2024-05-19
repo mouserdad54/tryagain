@@ -3,23 +3,23 @@ background{background: fixed;}
 
 .headergrid {
     display: grid;
-    position:fixed;
-    background-color: blue;
-    grid-template-areas:"button3 title button4"
-                         "sbio title mbio";
-                         grid-template-rows:2fr 2fr 2fr;
-                         grid-template-columns: 1fr 2fr 1fr;
-                        gap: 10px;
-                    padding: 5px;
-                         text-align: center;
-                         border:5px solid black;
-                         
-                         
+    grid-template-areas: "title1 title1"
+                        "button3 button4"
+                        "sbio     Mbio";
+                        grid-template-columns: 2fr 2fr ;
+                        grid-template-rows: 1fr 1fr;
+                        background-color:pink;
+                        position: relative;
+                        text-align: center;
+                        border:5px solid black;
+                        margin: auto;
+                        font-size: xx-large;
+                        font-weight: 900;
+                        align-content: center;
 
-}
 
 
-.title {color: #ff1493;
+.title1 {color: #ff1493;
     grid-area: title;
 position: relative;
 border-style: solid;
@@ -54,8 +54,6 @@ transition: 0.7s;}
 
 .sbio {
     grid-area: sbio;
-    left:975px;
-    top: 50px;
     border-style:hidden;
     font-size: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
