@@ -3,6 +3,7 @@ background{background: fixed;}
 
 .wrapper {
     display: grid;
+    position: relative;
     grid-template-areas: "title1 title1"
                           "mbio  sbio"
                           "button3 button4"
@@ -10,15 +11,15 @@ background{background: fixed;}
                           "homefooter contact";
                           gap: 20px;
                         background-color: #ff1493;
-                    width:100%
-                left:60px;}
+                    width:100%;
+                }
 
 
 
-.title1 {
+.title1 {  
     grid-area: title1;
 border-style: solid;
-
+text-align: center;
 border-width: 10px;
 border-color:black;
 padding: 5px;
@@ -33,14 +34,15 @@ font-weight: 800;
 .mbio {
     display: grid;
     grid-area: mbio;
-    top: 20px;
-border-style:hidden;
+border:2px solid black;
 font-size: x-large;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 padding: 10px;
 background-color:#ff1493;
 font-weight: 900;
+
 border-radius: 150px;
+text-align: center;
 }
 .mbio:hover{background-color: cornflowerblue;
 transition: 0.7s;}
@@ -49,11 +51,12 @@ transition: 0.7s;}
     grid-area: sbio;
     display:grid;
     position: relative;
-    border-style:hidden;
+    border: 2px solid black;
     font-size: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
-    border-radius: 50px;
+    text-align: center;
+    border-radius: 150px;
     background-color: cornflowerblue;
     font-weight: 800;
     
@@ -67,10 +70,12 @@ transition: 0.7s;}
 border: 2px solid black;
 width:200px;
 font-weight: 900;
+text-align: center;
 font:oblique 0.5;
-align-content: center;
 background:white;
-width: 100px;}
+border-radius: 150px;
+width: 600px;
+height: 40px;}
 
 .button3:hover{background-color: antiquewhite;
 transition: 0.5s;
@@ -107,11 +112,12 @@ color: blueviolet;}
         border: 2px solid black;
 font-weight: 900;
 font:oblique 0.5;
-align-content: center;
+border-radius: 150px;
+text-align: center;
+width: 600px;
+height: 40px;
 background:white;
-width:100px;
-width:100px}
-
+}
 .button4:hover{background-color: antiquewhite;
 transition: 0.5s;
 color:lightgreen;}
