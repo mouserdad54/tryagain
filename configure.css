@@ -59,7 +59,7 @@ transition: 0.7s;}
     border-style:hidden;
     font-size: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position:relative;
+    position:fixed;
     padding: 10px;
     border-radius: 150px;
     background-color: cornflowerblue;
