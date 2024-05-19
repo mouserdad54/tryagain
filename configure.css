@@ -1,34 +1,28 @@
 background{background: fixed;}
 
 
-.headergrid {
+.wrapper {
     display: grid;
     grid-template-areas: "title1 title1"
-                        "button3 button4"
-                        "sbio     Mbio";
-                        grid-template-columns: 2fr 2fr ;
-                        grid-template-rows: 1fr 1fr;
-                        background-color:pink;
-                        position: relative;
-                        text-align: center;
-                        border:5px solid black;
-                        margin: auto;
-                        font-size: xx-large;
-                        font-weight: 900;
-                        align-content: center;
+                          "mbio  sbio"
+                          "button3 button4"
+                          "poem  martha"
+                          "homefooter contact";
+                          gap: 20px;
+                        background-color: #ff1493;
+                    width:100%
+                left:60px;}
 
 
 
-.title1 {color: #ff1493;
-    grid-area: title;
-position: relative;
+.title1 {
+    grid-area: title1;
 border-style: solid;
-align-content: center;
+
 border-width: 10px;
 border-color:black;
 padding: 5px;
 border-radius: 10 white;
-text-align: center;
 font-size:xx-large;
 background-color: pink;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,8 +31,8 @@ font-weight: 800;
 
 
 .mbio {
+    display: grid;
     grid-area: mbio;
-    position: relative;
     top: 20px;
 border-style:hidden;
 font-size: x-large;
@@ -47,36 +41,38 @@ padding: 10px;
 background-color:#ff1493;
 font-weight: 900;
 border-radius: 150px;
-
 }
 .mbio:hover{background-color: cornflowerblue;
 transition: 0.7s;}
 
 .sbio {
     grid-area: sbio;
+    display:grid;
+    position: relative;
     border-style:hidden;
     font-size: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position:fixed;
     padding: 10px;
-    border-radius: 150px;
+    border-radius: 50px;
     background-color: cornflowerblue;
     font-weight: 800;
+    
     }
     .sbio:hover{background-color: #ff1493;
     transition: 0.7s;}
 
 .button3{
+    display:grid;
     grid-area: button3;
 border: 2px solid black;
-position: relative;
+width:200px;
 font-weight: 900;
 font:oblique 0.5;
 align-content: center;
 background:white;
 width: 100px;}
 
-.button:hover{background-color: antiquewhite;
+.button3:hover{background-color: antiquewhite;
 transition: 0.5s;
 color: blueviolet;}
 
@@ -106,16 +102,17 @@ color: blueviolet;}
             color: blueviolet;}
            
     .button4{
+        display: grid;
         grid-area: button4;
         border: 2px solid black;
 font-weight: 900;
-position: relative;
 font:oblique 0.5;
 align-content: center;
 background:white;
+width:100px;
 width:100px}
 
-.button:hover{background-color: antiquewhite;
+.button4:hover{background-color: antiquewhite;
 transition: 0.5s;
 color:lightgreen;}
       
@@ -123,7 +120,7 @@ color:lightgreen;}
 
 
 
-.returnbutton{
+.returnbutton {    
     border-style: solid;
     grid-area:returnbutton;
     position: relative;
@@ -133,7 +130,9 @@ color:lightgreen;}
     font-size: xx-large;
      }
 
-.martha{text-decoration: double;
+.martha {text-decoration: double;
+    display: grid;
+    grid-area: martha;
     border-style:double;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 500px;
@@ -145,9 +144,7 @@ color:lightgreen;}
     border-width: 8px;
     background-color:#ff1493;
     position:relative;
-    z-index:-1;
-    left: 625px;
-    top: 215px;}
+    }
 .martha:hover{border-color: black;
 transition-duration: 0.4s;}
 
@@ -178,21 +175,17 @@ width:fit-content;}
         transition-duration: 4.0s;
      }
 
-
-
-
-.poem {border-style:double;
-
+.poem {
+    display: grid;
+    grid-area: poem;
+    border-style:double;
 border-width: 10px;
 font-family: 'Times New Roman', Times, serif;
 color:white;
-padding:6px;
-z-index:-1;
 font-size: x-large;
 background-color:cornflowerblue;
-position:absolute;
-top:225px;}
-
+position:relative;
+}
 .poem:hover{border-color: black;
 transition-duration: 0.4s;}
 
@@ -203,11 +196,8 @@ background-color: antiquewhite;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size:x-large;
 text-align: center;
-bottom:-330px;
-width:600px;
-height:350px;
-left:700px;
-z-index:2;
+left:200px;
+z-index: 1;
 }
 
 .contact:hover{
@@ -218,17 +208,17 @@ z-index:2;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.homefooter {position:absolute;
-width:2400;
+.homefooter {
+    position:relative;
+display: grid;
+grid-area: homefooter;
 font-size: xx-large;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 900;
 text-decoration: antiquewhite;
 overflow: visible;
-top: 1100px;
 border-style: double;
 border-width: 20px;
-height: 500px;
 background-color: blueviolet;}
 
 .grid {
