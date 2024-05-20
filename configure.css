@@ -10,7 +10,7 @@ background{background: fixed;}
                           "poem  martha"
                           "homefooter contact";
                           gap: 20px;
-                        background-color:black;
+align-content: center;                        background-color:black;
                     
                 }
 
@@ -151,6 +151,7 @@ color:lightgreen;}
     border-width: 8px;
     background-color:#ff1493;
     position:relative;
+    align-content: center;
     }
 .martha:hover{border-color: black;
 transition-duration: 0.4s;}
@@ -192,6 +193,8 @@ color:white;
 font-size: x-large;
 background-color:cornflowerblue;
 position:relative;
+align-content: center;
+text-align: center;
 }
 .poem:hover{border-color: black;
 transition-duration: 0.4s;}
