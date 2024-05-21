@@ -380,21 +380,18 @@ transition-duration: 5.0s;}
                           "june aug aug"
                           "june sept sept"
                           "footer footer footer";
-                          grid-template-columns: 30% 60% 10%;
-                          
+                          grid-template-columns: 30% 200%;
+                         width: 100%; 
                         text-align: center;
                         word-wrap:auto;
                         position: relative;
                         gap: 5px;
                         padding: auto;
-                        width:auto;
-                        
-                        margin: 0 auto;
-                        align-content:stretch;
-                        left:60px;
-}
+                    left:60px;
+ }
 
- .june {
+ 
+ .facts {
     background-color: aqua;
     grid-area: june;
     border: 1px solid black;
@@ -407,9 +404,9 @@ transition-duration: 5.0s;}
  }
 
 .july {
-    background-color: beige;
+    background-color:blue;
     grid-area: july;
-    
+    max-width: 100%;;
 
 }
 
