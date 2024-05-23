@@ -127,8 +127,19 @@ color:lightgreen;}
 .imagefield{
     display:grid;
     grid-area: imagefield;
+    border:2px solid black;
+    align-content: center;
 }
-
+.imagefield:hover{
+    background-color: antiquewhite;
+    width: 100;
+   transition-delay: 1s;
+   transition-duration: 300ms;
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2px;
+    margin:auto;
+}
 
 
 .returnbutton {    
