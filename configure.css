@@ -31,10 +31,7 @@ font-size:xx-large;
 background-color: pink;
 
 }
-.title:hover{
-    background-color: black;
-    transition: 300ms ease-in-out 1.5s;
-}
+
 
 .mbio {
     display: grid;
