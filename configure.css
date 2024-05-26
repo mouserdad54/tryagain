@@ -11,7 +11,8 @@ background{background: fixed;}
                           "contact  imagefield"
                           "homefooter homefooter";
                           gap: 20px;
-align-content: center;                        background-color:black;
+align-content: center;                        
+background-color:black;
                     
                 }
 
@@ -19,17 +20,16 @@ align-content: center;                        background-color:black;
 
 .title1 {  
     grid-area: title1;
-border-style: solid;
 
 text-align: center;
-border-width: 10px;
+
+border: 10px double white;
 border-color:black;
 padding: 5px;
 border-radius: 10 white;
 font-size:xx-large;
 background-color: pink;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 800;
+
 }
 
 
