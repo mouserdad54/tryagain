@@ -384,62 +384,61 @@ transition-duration: 5.0s;}
 .cocoabackground{
     color: lightyellow;
 }
-
-.wrapper-news{
-    margin: 0 auto;
-
+.line1{
+    border: 10px solid green;
+    width:98%;
+    height:30px;
+    background-color: green;
+}
+.line2{
+    border: 10px solid gold;
+    width:98%;
+    height:5px;
+    background-color: gold;
+}
+.line3{
+    border: 10px solid black;
+    width:98%;
+    height:30px;
+    background-color: black;
+}
+.line4{
+    border: 10px solid gold;
+    width:98%;
+    height:5px;
+    background-color: gold;
+}
+.line5{
+    border: 10px solid blue;
+    width:98%;
+    height:30px;
+    background-color: blue;
 }
 
-.newsbox{
-    display:grid;
-    grid-template-areas: "june  july july"
-                          "june july july"
-                          "june aug aug"
-                          "june sept sept"
-                          "footer footer footer";
-                          grid-template-columns: 30% 200%;
-                         width: 100%; 
-                        text-align: center;
-                        word-wrap:auto;
-                        position: relative;
-                        gap: 5px;
-                        padding: auto;
-                    left:60px;
- }
+.blogtitle{
+    border:hidden;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
- 
+.june24{
+    border:2px double black;
+    padding: 5px;
+}
+
+
+
+
+
  .facts {
     background-color: aqua;
-    grid-area: june;
-    border: 1px solid black;
+
+    border: 10px solid black;
     font-size:large;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: auto;
-    text-wrap:balance;
-    
- }
-
-.july {
-    background-color:blue;
-    grid-area: july;
-    max-width: 100%;;
-
-}
-
-.aug {
-    background-color: blueviolet;
-    grid-area: aug;
-    max-width: 100%;
-
-}
-
-
-.sept{
-    background-color: chartreuse;
-    grid-area: sept;
-   max-width: 100%;
-
 }
 
 .footer{
