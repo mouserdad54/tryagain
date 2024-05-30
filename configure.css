@@ -425,6 +425,7 @@ transition-duration: 5.0s;}
 .june24{
     border:2px double black;
     padding: 5px;
+    background-color: bisque;
 }
 
 
