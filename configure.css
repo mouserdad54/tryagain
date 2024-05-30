@@ -353,7 +353,7 @@ transition-duration: 5.0s;}
     background-color:aliceblue;
     text-align: center;
      width: 900px;
-    left:100px;}
+    }
     .cocoabio:hover{
         transition-duration: 15.0s;
         background-color:springgreen;
@@ -373,7 +373,7 @@ transition-duration: 5.0s;}
         color:black;
         background-color: wheat;
         height: 100px;
-        left:100px;}
+        }
 
 .cocoabeanwelcome:hover{
     color: antiquewhite;
