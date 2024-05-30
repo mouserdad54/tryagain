@@ -345,6 +345,8 @@ background-color: black;
 transition-duration: 5.0s;}
 
 .cocoabio{
+    display:flex;
+    justify-content: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
     font-size: x-large;
