@@ -362,7 +362,11 @@ transition-duration: 5.0s;}
         background-color:springgreen;
     }
 
-
+.babymarthapic{
+    position: relative;
+    display: flex;
+    left: 300px;
+}
 
 
 
