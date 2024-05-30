@@ -366,6 +366,7 @@ transition-duration: 5.0s;}
     position: relative;
     display: flex;
     left: 300px;
+    border: 15px double black;
 }
 
 
