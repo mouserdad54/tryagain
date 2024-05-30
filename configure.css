@@ -368,7 +368,6 @@ transition-duration: 5.0s;}
 .babymarthapic{
     position: relative;
     display: flex;
-    left: 300px;
     border: 15px double black;
 }
 
