@@ -352,7 +352,7 @@ transition-duration: 5.0s;}
     border: 50px solid plum;
     background-color:aliceblue;
     text-align: center;
-     width: 900px;
+     
     }
     .cocoabio:hover{
         transition-duration: 15.0s;
