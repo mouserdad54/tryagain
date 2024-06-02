@@ -4,6 +4,8 @@ display: flex;}
 
 .wrapper {
     display: grid;
+    flex:auto;
+    justify-content:space-around;
     position: relative;
     grid-template-areas: "title1 title1"
                           "mbio  sbio"
@@ -22,6 +24,7 @@ background-color:black;
 .title1 {  
     grid-area: title1;
     display:grid;
+    flex:auto;
 
 text-align: center;
 
@@ -37,6 +40,7 @@ background-color: pink;
 
 .mbio {
     display: grid;
+    flex:auto;
     grid-area: mbio;
 border:2px solid black;
 position: relative;
@@ -50,7 +54,13 @@ border-radius: 150px;
 text-align: center;
 }
 .mbio:hover{background-color: cornflowerblue;
-transition: 0.7s;}
+    transition: 300ms ease-in 400ms;
+    transform:scale(0.5);
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
 
 .sbio {
     grid-area: sbio;
@@ -67,7 +77,10 @@ transition: 0.7s;}
     
     }
     .sbio:hover{background-color: #ff1493;
-    transition: 0.7s;}
+        transition: 300ms ease-in 400ms;
+        transform:scale(0.5);
+        font-size: x-large;
+        font-weight: 900;}
 
 .button3{
     display:grid;
@@ -225,18 +238,59 @@ background-color: antiquewhite;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size:x-large;
 text-align: center;
- z-index: 1;
 }
 
 .contact:hover{
    background-color: lightpink;
-   width: 200%;
-   transition-delay: 1s;
-   transition-duration: 300ms;
-    font-size:xx-large;
+   transition: 300ms ease-in 400ms;
+   transform:scale(1.5);
+   font-size: x-large;
+   font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .instabutton{
+        position: relative;
+        right:75px;
+        color: lightgreen;
+        margin:auto;
+        height:50px; 
+        width:100px;
+        top:-50px;
+        border:hidden;
+        background:transparent;
+        
+       
+    }
+    .instabutton:hover{
+        transition: 300ms ease-in 400ms;
+        transform:scale(1.5);
+        color: black;
+        font-size: xx-large;
+        font-weight: 900;
+    }
+
+    .snapbutton{
+        position: relative;
+        left:75px;
+        margin:auto;
+        height:50px; 
+        width:100px;
+        border: hidden;
+    background: transparent;
+    color: lightgreen;
+       
     
-}
+    }
+    .snapbutton:hover{
+            transition: 300ms ease-in 400ms;
+            transform:scale(1.5);
+            color: black;
+            font-size: x-large;
+            font-weight: 900;
+    }
+        
+
 
 .homefooter {
     position:relative;
