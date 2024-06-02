@@ -109,6 +109,7 @@ color: blueviolet;}
     font:oblique 0.5;
     align-content: center;
     background:none}
+
     .button1:hover{background-color: antiquewhite;
         transition: 0.5s;
         color:rgba(94, 241, 160, 0.945);}
@@ -172,6 +173,7 @@ color:lightgreen;}
 .martha {text-decoration: double;
     display: grid;
     grid-area: martha;
+    flex:auto;
     border-style:double;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 550px;
@@ -195,6 +197,7 @@ width:fit-content;}
 
 .pictitle{color:antiquewhite;
     grid-area:pictitle;
+
     border-style:solid;
     border-width: 100px;
     border-color:black;
@@ -219,6 +222,7 @@ width:fit-content;}
     display: grid;
     grid-area: poem;
     border-style:double;
+    flex:auto;
 border-width: 10px;
 font-family: 'Times New Roman', Times, serif;
 color:white;
@@ -251,6 +255,7 @@ text-align: center;
 
     .instabutton{
         position: relative;
+        flex:auto;
         right:75px;
         color: lightgreen;
         margin:auto;
@@ -272,6 +277,7 @@ text-align: center;
 
     .snapbutton{
         position: relative;
+        flex:auto;
         left:75px;
         margin:auto;
         height:50px; 
