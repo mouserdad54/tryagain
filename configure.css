@@ -1,10 +1,9 @@
-background{background: fixed;
-display: flex;}
+
 
 
 .wrapper {
     display: grid;
-    flex:auto;
+    flex:content;
     justify-content:space-around;
     position: relative;
     grid-template-areas: "title1 title1"
@@ -253,15 +252,22 @@ text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
+.headtopmain{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border: 10px double blue;
+    height:200px;
+
+}
+
+
     .instabutton{
         position: relative;
         flex:auto;
-        right:75px;
-        color: lightgreen;
-        margin:auto;
+        justify-content:center;
         height:50px; 
         width:100px;
-        top:-50px;
         border:hidden;
         background:transparent;
         
@@ -274,13 +280,11 @@ text-align: center;
         font-size: xx-large;
         font-weight: 900;
     }
-
-    .snapbutton{
+        .snapbutton{
         position: relative;
         flex:auto;
-        left:75px;
-        margin:auto;
-        height:50px; 
+        justify-content: space-between;
+         height:50px; 
         width:100px;
         border: hidden;
     background: transparent;
