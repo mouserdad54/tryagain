@@ -3,29 +3,34 @@
     .left, .main, .right {
       width: 100%;}}
 
+
+
+.margins{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    flex-shrink: 1;    
+background-color: black;}
+
 .wrapper {
-    display: grid;
-    flex:content;
+    display:flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     position: relative;
-    grid-template-areas: "title1 title1"
-                          "mbio  sbio"
-                          "button3 button4"
-                          "poem  martha"
-                          "contact  imagefield"
-                          "homefooter homefooter";
-                          gap: 20px;
-align-content: center;                        
-background-color:black;
-                    
-                }
+    align-content: center;                 
+}
 
 
 
 .title1 {  
-    grid-area: title1;
-    display:grid;
+    display:flex;
     flex-wrap: wrap;
+    flex-shrink: 1;
+    justify-content: center;
 
 text-align: center;
 border: 10px double white;
@@ -39,9 +44,9 @@ background-color: pink;
 
 
 .mbio {
-    display: grid;
-    flex:auto;
-    grid-area: mbio;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
 border:2px solid black;
 position: relative;
 font-size: x-large;
@@ -63,8 +68,8 @@ text-align: center;
 
 
 .sbio {
-    grid-area: sbio;
-    display:grid;
+    flex-shrink: 1;
+    display:flex;
     position: relative;
     border: 2px solid black;
     font-size: x-large;
@@ -83,8 +88,8 @@ text-align: center;
         font-weight: 900;}
 
 .button3{
-    display:grid;
-    grid-area: button3;
+    display:flex;
+    flex-shrink: 1;
 border: 2px solid black;
 font-size: x-large;
 font-weight: 900;
@@ -92,8 +97,8 @@ text-align: center;
 font:oblique 0.5;
 background:white;
 border-radius: 150px;
-width: 600px;
-height: 40px;}
+width: 200px;
+height: 50px;}
 
 .button3:hover{background-color: antiquewhite;
 transition: 0.5s;
@@ -101,6 +106,7 @@ color: blueviolet;}
 
 .button1{
     position: relative;
+    flex-wrap: wrap;
     border-radius: 30%;
     border-style:hidden;
     color: black;
@@ -116,6 +122,7 @@ color: blueviolet;}
 
         .button2{
             border-style:hidden;
+            flex-wrap: wrap;
             font-weight: 900;
             font:oblique 0.5;
             align-content: center;
@@ -126,16 +133,16 @@ color: blueviolet;}
             color: blueviolet;}
            
     .button4{
-        display: grid;
-        grid-area: button4;
+        display: flex;
+        flex-shrink: 1;
         border: 2px solid black;
         font-size: x-large;
 font-weight: 900;
 font:oblique 0.5;
 border-radius: 150px;
 text-align: center;
-width: 600px;
-height: 40px;
+width: 200px;
+height: 50px;
 background:white;
 }
 .button4:hover{background-color: antiquewhite;
@@ -143,10 +150,11 @@ transition: 0.5s;
 color:lightgreen;}
       
 .imagefield{
-    display:grid;
-    grid-area: imagefield;
+    display:flex;
+    flex-shrink: 1;
     border:2px solid black;
     align-content: center;
+    max-width: 100%;
 }
 .imagefield:hover{
     background-color: antiquewhite;
@@ -171,9 +179,9 @@ color:lightgreen;}
      }
 
 .martha {text-decoration: double;
-    display: grid;
-    grid-area: martha;
-    flex:auto;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
     border-style:double;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 550px;
@@ -185,7 +193,6 @@ color:lightgreen;}
     border-width: 8px;
     background-color:#ff1493;
     position:relative;
-    align-content: center;
     }
 .martha:hover{border-color: black;
 transition-duration: 0.4s;}
@@ -219,10 +226,10 @@ width:fit-content;}
      }
 
 .poem {
-    display: grid;
-    grid-area: poem;
+    display: flex;
+    
     border-style:double;
-    flex:auto;
+    flex-shrink: 1;
 border-width: 10px;
 font-family: 'Times New Roman', Times, serif;
 color:white;
@@ -236,6 +243,8 @@ text-align: center;
 transition-duration: 0.4s;}
 
 .contact{position:relative;
+    display: flex;
+    flex-shrink: 1;
 text-decoration: solid;
 border: 5px double black;
 background-color: antiquewhite;
@@ -264,8 +273,8 @@ text-align: center;
 
 .homefooter {
     position:relative;
-display: grid;
-grid-area: homefooter;
+display: flex;
+flex-shrink: 1;
 font-size: xx-large;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 900;
