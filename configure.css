@@ -14,7 +14,8 @@
     padding-right: 10px;
     padding-left: 10px;
     flex-shrink: 1;    
-background-color: black;}
+background-color: black;
+}
 
 
 
@@ -33,9 +34,14 @@ font-size:xx-large;
 background-color: pink;
 }
 
+.masterbutton{
+    display:flex;
+
+}
 
 .mbio {
     display: flex;
+
     flex-direction:column;
     flex-shrink: 1;
 border:2px solid black;
@@ -82,6 +88,7 @@ text-align: center;
 .button3{
     display:flex;
     flex-shrink: 1;
+    
 border: 2px solid black;
 font-size: x-large;
 font-weight: 900;
@@ -220,7 +227,7 @@ width:fit-content;}
 
 .poem {
     display: flex;
-flex-direction: column;    
+flex-direction: column;   
     border-style:double;
     flex-shrink: 1;
 border-width: 10px;
@@ -230,6 +237,7 @@ font-size: x-large;
 background-color:cornflowerblue;
 position:relative;
 align-content: center;
+justify-content: center;
 text-align: center;
 }
 .poem:hover{border-color: black;
