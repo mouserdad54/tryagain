@@ -25,10 +25,9 @@ background-color:black;
 .title1 {  
     grid-area: title1;
     display:grid;
-    flex:auto;
+    flex-wrap: wrap;
 
 text-align: center;
-
 border: 10px double white;
 border-color:black;
 padding: 5px;
