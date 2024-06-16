@@ -1,5 +1,7 @@
 
-
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;}}
 
 .wrapper {
     display: grid;
@@ -255,9 +257,11 @@ text-align: center;
 .headtopmain{
     position: relative;
     display: flex;
-    justify-content:left;
+flex: content;
+    justify-content:center;
     border: 10px double blue;
     height:200px;
+    width:98%;
 
 }
 
@@ -265,7 +269,7 @@ text-align: center;
     .instabutton{
         position: relative;
         flex:auto;
-        justify-content:space-around;
+        justify-content: space-around;
         height:50px; 
         width:100px;
         border:hidden;
