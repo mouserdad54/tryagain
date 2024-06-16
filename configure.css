@@ -16,13 +16,6 @@
     flex-shrink: 1;    
 background-color: black;}
 
-.wrapper {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    position: relative;
-    align-content: center;                 
-}
 
 
 
@@ -31,7 +24,6 @@ background-color: black;}
     flex-wrap: wrap;
     flex-shrink: 1;
     justify-content: center;
-
 text-align: center;
 border: 10px double white;
 border-color:black;
@@ -39,13 +31,12 @@ padding: 5px;
 border-radius: 10 white;
 font-size:xx-large;
 background-color: pink;
-
 }
 
 
 .mbio {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     flex-shrink: 1;
 border:2px solid black;
 position: relative;
@@ -70,6 +61,7 @@ text-align: center;
 .sbio {
     flex-shrink: 1;
     display:flex;
+    flex-direction: column;
     position: relative;
     border: 2px solid black;
     font-size: x-large;
@@ -180,6 +172,7 @@ color:lightgreen;}
 
 .martha {text-decoration: double;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-shrink: 1;
     border-style:double;
@@ -227,7 +220,7 @@ width:fit-content;}
 
 .poem {
     display: flex;
-    
+flex-direction: column;    
     border-style:double;
     flex-shrink: 1;
 border-width: 10px;
@@ -244,6 +237,7 @@ transition-duration: 0.4s;}
 
 .contact{position:relative;
     display: flex;
+    flex-direction: column;
     flex-shrink: 1;
 text-decoration: solid;
 border: 5px double black;
