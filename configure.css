@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .left, .main, .right {
       width: 100%;}}
 
@@ -36,6 +36,7 @@ background-color: pink;
 
 .masterbutton{
     display:flex;
+    justify-content: space-between;
 
 }
 
@@ -177,6 +178,13 @@ color:lightgreen;}
     font-size: xx-large;
      }
 
+.thumbsup{
+    display: flex;
+flex-direction: row;
+  justify-content: center;
+  align-content: center; 
+}
+
 .martha {text-decoration: double;
     display: flex;
     flex-direction: column;
@@ -227,7 +235,7 @@ width:fit-content;}
 
 .poem {
     display: flex;
-flex-direction: column;   
+flex-direction:column;   
     border-style:double;
     flex-shrink: 1;
 border-width: 10px;
@@ -236,8 +244,6 @@ color:white;
 font-size: x-large;
 background-color:cornflowerblue;
 position:relative;
-align-content: center;
-justify-content: center;
 text-align: center;
 }
 .poem:hover{border-color: black;
