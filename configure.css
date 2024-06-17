@@ -4,13 +4,13 @@
       width: 100%;}}
 
 @media only screen and (min-width:320px)
-and (max-width:480px) {}
+and (max-width:480px) {.left, .main, .right {
+    width: 100%;}}
 
 .margins{
     display: flex;
     flex-wrap: wrap;
-    margin-right: auto;
-    margin-left: auto;
+
     max-width: 960px;
     max-height:100%;
     padding-right: 10px;
@@ -24,7 +24,7 @@ background-color: black;
 
 .title1 {  
     display:flex;
-justify-content: center;
+
 text-align: center;
 border: 10px double white;
 border-color:black;
