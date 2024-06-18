@@ -25,20 +25,21 @@ background-color: black;
 
 .title1 {  
     display:flex;
-
+justify-content: center;
 text-align: center;
 border: 10px double white;
 border-color:black;
 padding: 5px;
 border-radius: 10 white;
 font-size:xx-large;
-background-color: pink;
+background-image: linear-gradient(pink, white, pink);
+
 }
 
 .masterbutton{
     display:flex;
     justify-content: space-between;
-
+    text-shadow: 2px 2px whitesmoke;
 }
 
 .mbio {
@@ -153,7 +154,7 @@ color:plum}
     max-width: 100%;
 }
 .imagefield:hover{
-    background-color: antiquewhite;
+    background-image: radial-gradient(circle,purple,violet,maroon);
     width: 100;
    transition-delay: 1s;
    transition-duration: 300ms;
@@ -259,7 +260,7 @@ text-align: center;
 }
 
 .contact:hover{
-   background-color: lightpink;
+    background-image: linear-gradient(to bottom right, pink, rgba(16, 141, 243, 0.973));
    transition: 300ms ease-in 400ms;
    transform:scale(1.5);
    font-size: x-large;
