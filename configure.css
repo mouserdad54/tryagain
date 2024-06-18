@@ -410,6 +410,8 @@ transition-duration: 5.0s;}
     position: relative;
     display: flex;
     border: 15px double black;
+    justify-content: space-between;
+    background-image: linear-gradient(green, gold,black,gold,blue);
 }
 
 
