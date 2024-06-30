@@ -9,22 +9,23 @@ and (max-width:480px) {.left, .main, .right {
 
 .margins{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     margin-right: auto;
+   outline: 25px double;
+   outline-color:pink; 
     margin-left: auto;
     max-width: 960px;
     max-height:100%;
     padding-right: 10px;
-    padding-left: 10px;
-    flex-shrink: 1;    
+    padding-left: 10px;    
 background-color: black;
 }
 
-
-
-
 .title1 {  
     display:flex;
+flex-direction: row;
+    position: relative;
 justify-content: center;
 text-align: center;
 border: 10px double white;
@@ -32,13 +33,14 @@ border-color:black;
 padding: 5px;
 border-radius: 10 white;
 font-size:xx-large;
+width: auto;
 background-image: linear-gradient(pink, white, pink);
-
 }
 
 .masterbutton{
     display:flex;
-    justify-content: space-between;
+    flex-direction: row;
+justify-content: space-around;
     text-shadow: 2px 2px whitesmoke;
 }
 
@@ -63,7 +65,6 @@ text-align: center;
 }
 
 
-
 .sbio {
     display:flex;
     flex-direction: column;
@@ -86,6 +87,7 @@ text-align: center;
 
 .button3{
     display:flex;
+    flex-direction: column;
 border: 2px solid black;
 color: black;
 font-size: x-large;
@@ -131,6 +133,7 @@ color: blueviolet;}
            
     .button4{
         display: flex;
+        flex-direction: column;
         border: 2px solid black;
         font-size: x-large;
         justify-content: center;
@@ -149,9 +152,11 @@ color:plum}
       
 .imagefield{
     display:flex;
+
     border:2px solid black;
     align-content: center;
     max-width: 100%;
+
 }
 .imagefield:hover{
     background-image: radial-gradient(circle,purple,violet,maroon);
@@ -176,21 +181,18 @@ color:plum}
     font-size: xx-large;
      }
 
-.thumbsup{
-    display: flex;
-flex-direction: row;
-  justify-content: center;
-  align-content: center; 
-}
+     .frontpageunionpics{
+        display: flex;
+        justify-content: space-around;
+     }
 
 .martha {text-decoration: double;
     display: flex;
     flex-direction: column;
-    float: left;
     justify-content: center;
     border-style:double;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
+
     font-size: x-large;
     color:antiquewhite;
     font-weight:800;
@@ -201,8 +203,6 @@ flex-direction: row;
     }
 .martha:hover{border-color: black;
 transition-duration: 0.4s;}
-
-
 body{background-size: cover;
 background-attachment: fixed;
 width:fit-content;}
@@ -232,16 +232,15 @@ width:fit-content;}
 
 .poem {
     display: flex;
+    position: relative;
 flex-direction:column;
-float: right;   
     border-style:double;
-    flex-shrink: 2;
+
 border-width: 10px;
 font-family: 'Times New Roman', Times, serif;
 color:white;
 font-size: x-large;
 background-color:cornflowerblue;
-position:relative;
 text-align: center;
 }
 .poem:hover{border-color: black;
@@ -249,8 +248,7 @@ transition-duration: 0.4s;}
 
 .contact{position:relative;
     display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
+    flex-direction: column;  
 text-decoration: solid;
 border: 5px double black;
 background-color: antiquewhite;
@@ -262,11 +260,16 @@ text-align: center;
 .contact:hover{
     background-image: linear-gradient(to bottom right, pink, rgba(16, 141, 243, 0.973));
    transition: 300ms ease-in 400ms;
-   transform:scale(1.5);
+   transform:scale(1.3);
    font-size: x-large;
+   border-radius: 150px;
    font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      
+}
+
 
 
 
