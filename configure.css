@@ -36,72 +36,28 @@ font-size:xx-large;
 width: auto;
 background-image: linear-gradient(pink, white, pink);
 }
-
-.masterbutton{
-    display:flex;
-    flex-direction: row;
-justify-content: space-around;
-    text-shadow: 2px 2px whitesmoke;
-}
-
-.mbio {
-    display: flex;
-flex-direction:column;
-border:2px solid black;
-position: relative;
-font-size: x-large;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-padding: 10px;
-background-color:#ff1493;
-font-weight: 900;
-border-radius: 150px;
-text-align: center;
-}
-.mbio:hover{background-color: cornflowerblue;
-    transition: 300ms ease-in 400ms;
-    transform:scale(0.5);
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
     font-size: x-large;
     font-weight: 900;
+
 }
-
-
-.sbio {
-    display:flex;
-    flex-direction: column;
-    position: relative;
-    border: 2px solid black;
-    font-size: x-large;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 10px;
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     text-align: center;
-    border-radius: 150px;
-    background-color: cornflowerblue;
-    font-weight: 800;
-    
-    }
-    .sbio:hover{background-color: #ff1493;
-        transition: 300ms ease-in 400ms;
-        transform:scale(0.5);
-        font-size: x-large;
-        font-weight: 900;}
-
-.button3{
-    display:flex;
-    flex-direction: column;
-border: 2px solid black;
-color: black;
-font-size: x-large;
-font-weight: 900;
-text-align: center;
-font:oblique 0.5;
-background:pink;
-border-radius: 150px;
-width: 200px;
-height: 50px;}
-
-.button3:hover{background-color: antiquewhite;
-transition: 0.5s;
-color: blueviolet;}
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
 .button1{
     position: relative;
@@ -131,33 +87,7 @@ color: blueviolet;}
             transition: 350ms linear;
             color: blueviolet;}
            
-    .button4{
-        display: flex;
-        flex-direction: column;
-        border: 2px solid black;
-        font-size: x-large;
-        justify-content: center;
-font-weight: 900;
-font:oblique 0.5;
-border-radius: 150px;
-text-align: center;
-width: 200px;
-height: 50px;
-background:pink;
-color: black;
-}
-.button4:hover{background-color: antiquewhite;
-transition: 0.5s;
-color:plum}
-      
-.imagefield{
-    display:flex;
-
-    border:2px solid black;
-    align-content: center;
-    max-width: 100%;
-
-}
+ 
 .imagefield:hover{
     background-image: radial-gradient(circle,purple,violet,maroon);
     width: 100;
