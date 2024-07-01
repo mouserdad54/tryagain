@@ -232,6 +232,7 @@ background-color: blueviolet;}
                           "container2 container2"
                           "container3 container3"
                           "container4 container4"
+                          "container5 container5"
                           "pictfooter pictfooter";
                         grid-template-columns: 2fr 2fr ;
                         grid-template-rows: 1fr 1fr;
@@ -290,6 +291,15 @@ background-color: black;
 padding: auto; 
 border:2px solid black;
 background-color: black;  
+    }
+    .container5{
+        grid-area:container5;
+        display: flex;
+        justify-content: space-evenly; 
+    padding: auto; 
+    border:2px solid black;
+    background-color: black;  
+
     }
 .pictfooter{
 grid-area:pictfooter;
@@ -362,7 +372,7 @@ transition-duration: 5.0s;}
     position: relative;
     display: flex;
     border: 15px double black;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-image: linear-gradient(green, gold,black,gold,blue);
 }
 
