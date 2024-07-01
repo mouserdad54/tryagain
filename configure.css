@@ -412,9 +412,21 @@ transition-duration: 5.0s;}
     border:2px double black;
     padding: 5px;
     background-color: bisque;
+    font-size: larger;
+    font-weight: 900;
+    text-align: center;
 }
 
+.tanzaniadream {
+    border:2px double black;
+    padding: 5px;
+    background-color: bisque;
+    font-size: larger;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 
+}
 
 
 
