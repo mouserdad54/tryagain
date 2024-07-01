@@ -77,7 +77,6 @@ li {
 
         .button2{
             border-style:hidden;
-            flex-wrap: wrap;
             font-weight: 900;
             font:oblique 0.5;
             align-content: center;
@@ -88,16 +87,15 @@ li {
             color: blueviolet;}
            
  
-.imagefield:hover{
+.imagefield{
     background-image: radial-gradient(circle,purple,violet,maroon);
     width: 100;
-   transition-delay: 1s;
-   transition-duration: 300ms;
-    font-size:xx-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction: row;
+justify-content: space-evenly;
     padding: 2px;
     margin:auto;
-    text-align: center;
+    
 }
 
 
@@ -165,7 +163,7 @@ width:fit-content;}
     position: relative;
 flex-direction:column;
     border-style:double;
-
+justify-content: center;
 border-width: 10px;
 font-family: 'Times New Roman', Times, serif;
 color:white;
@@ -315,13 +313,14 @@ background-color:deepskyblue;
 }
 .biopage{
     position: relative;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     border-color: black;
     padding: 50px;
     background-color:rgb(233, 229, 222);
     font-weight: 900;
-    font-size: xx-large;
-    width: 100%;
+    font-size:60px;
+
     height: 150px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -353,19 +352,19 @@ transition-duration: 5.0s;}
 .cocoabio{
     display:flexbox;
     position: relative;
-    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
     font-size: x-large;
     position: relative;
     border: 50px solid plum;
-    background-color:aliceblue;
+    background-color:transparent;
     text-align: center;
      
     }
     .cocoabio:hover{
-        transition-duration: 15.0s;
-        background-color:springgreen;
+        transition-duration: 3.0s;
+        background-color:aliceblue;
+        font-weight: 900;
     }
 
 .babymarthapic{
@@ -391,7 +390,8 @@ transition-duration: 5.0s;}
         }
 
 .cocoabeanwelcome:hover{
-    color: antiquewhite;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     background-color: skyblue;
     transition-duration: 6.0s;
 }
