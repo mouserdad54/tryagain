@@ -29,8 +29,14 @@ flex-direction: row;
 justify-content: center;
 text-align: center;
 border: 10px double white;
-border-color:black;
+border-color:  0 0 5px 
+0 0 20px #ff00ff,
+0 0 30px #ff00ff,
+0 0 40px #ff00ff,
+0 0 50px #ff00ff,
+
 padding: 5px;
+
 border-radius: 10 white;
 font-size:xx-large;
 width: auto;
@@ -38,6 +44,7 @@ background-image: linear-gradient(pink, white, pink);
 }
 .navbar{
     list-style-type: none;
+  
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -53,7 +60,14 @@ li {
   li a {
     display: block;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow:   0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #ff00ff,
+    0 0 30px #ff00ff,
+    0 0 40px #ff00ff,
+    0 0 50px #ff00ff,
+    0 0 60px #ff00ff;
+
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -135,28 +149,65 @@ body{background-size: cover;
 background-attachment: fixed;
 width:fit-content;}
 
-.pictitle{color:antiquewhite;
-    grid-area:pictitle;
-
-    border-style:solid;
-    border-width: 100px;
-    border-color:black;
-    padding: 5px;
-    border-radius: 65%;
-    align-items: center;
+.pictitle {
+    color: antiquewhite;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 20px #ff00ff,
+                 0 0 30px #ff00ff,
+                 0 0 50px #ff00ff,
+                 0 0 60px #ff00ff,
+                 0 0 90px #ff00ff;
+    border-style: solid;
+    border-width: 10px;
+    border-color: lightslategray;
+    padding: 20px;
+    border-radius: 50%;
     text-align: center;
-    font-size:xx-large;
-    background-color:pink;
+    font-size: xx-large;
+    background: linear-gradient(45deg, pink, lightblue);
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
-    align-content: center;
     
-     }
-     .pictitle:hover{
-        color:chartreuse;
-        background-color: blueviolet;
-        transition-duration: 4.0s;
-     }
+}
+
+.pictquote{
+    font-family: monospace;
+    font-size:larger;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid black;
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 80%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+
+
+
+.pictitle:hover {
+    background-color: blueviolet;
+    transition-duration: 4.0s;
+    animation: bounce 1s infinite;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
 
 .poem {
     display: flex;
@@ -198,8 +249,42 @@ text-align: center;
       
 }
 
+.footer {
+    background-color: #34EDF3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
+.footer-content {
+    max-width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
 
 
 
@@ -208,109 +293,43 @@ text-align: center;
         
 
 
-.homefooter {
-    position:relative;
-display: flex;
-flex-shrink: 1;
+.pictquote{
 font-size: xx-large;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-weight: 900;
-text-decoration: antiquewhite;
-overflow: visible;
-border-style: double;
-border-width: 20px;
-background-color: blueviolet;}
-
-.grid {
-    display: grid;
-    
-    grid-template-areas: "pictitle pictitle"
-                          "container container"
-                          "container1 container1"
-                          "container2 container2"
-                          "container3 container3"
-                          "container4 container4"
-                          "container5 container5"
-                          "pictfooter pictfooter";
-                        grid-template-columns: 2fr 2fr ;
-                        grid-template-rows: 1fr 1fr;
-                        background-color:transparent;
-                        position: relative;
-                        text-align: center;
-                        border:5px solid black;
-                        margin: auto;
-                        font-size: xx-large;
-                        font-weight: 900;
-                        align-content: center;
-
+color:5px #34EDF3
 }
 
-.container{
-    grid-area:container;
-    display: flex;
-        justify-content: space-evenly; 
-    padding: auto; 
-    border:2px solid black;
-    background-color: black; 
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-.container1{
-    grid-area:container1;
+.carousel-track {
     display: flex;
-    justify-content: space-evenly; 
-padding: auto; 
-border:2px solid black;
-background-color: black; 
+    width: calc(4.3% *12 ); /* Adjust this based on the number of images */
+    animation: scroll 45s linear infinite;
 }
 
-.container2{
-    grid-area:container2;
-    display: flex;
-    justify-content: space-evenly; 
-padding: auto; 
-border:2px solid black;
-background-color: black;    
+.carousel-track img {
+    width: 450px;
+    height:450px;
+    flex-shrink: 0;
 }
 
-.container3{
-    grid-area:container3; 
-    display: flex;
-    justify-content: space-evenly; 
-padding: auto; 
-border:2px solid black;
-background-color: black;  
+.carousel:hover .carousel-track {
+    animation-play-state: paused;
 }
 
-
-.container4{
-    grid-area:container4;
-    display: flex;
-    justify-content: space-evenly; 
-padding: auto; 
-border:2px solid black;
-background-color: black;  
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
     }
-    .container5{
-        grid-area:container5;
-        display: flex;
-        justify-content: space-evenly; 
-    padding: auto; 
-    border:2px solid black;
-    background-color: black;  
-
+    100% {
+        transform: translateX(-2350%); /* Adjust this based on the number of images */
     }
-.pictfooter{
-grid-area:pictfooter;
-display: grid;
-padding:auto;
-border: 2px double black;
-font-weight: 900;
-font-size: x-large;
-background-color:deepskyblue;
-
-
-
 }
+
+
 .biopage{
     position: relative;
     display: flex;
