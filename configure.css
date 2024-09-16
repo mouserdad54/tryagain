@@ -476,7 +476,8 @@ transition-duration: 5.0s;}
 
 }
 
-.blogposttrip {
+.blogposttrip
+ {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
