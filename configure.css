@@ -28,20 +28,19 @@ flex-direction: row;
     position: relative;
 justify-content: center;
 text-align: center;
-border: 10px double white;
-border-color:  0 0 5px 
-0 0 20px #ff00ff,
-0 0 30px #ff00ff,
-0 0 40px #ff00ff,
-0 0 50px #ff00ff,
-
-padding: 5px;
-
-border-radius: 10 white;
-font-size:xx-large;
-width: auto;
-background-image: linear-gradient(pink, white, pink);
+    box-shadow: 
+        0 0 20px #ff00ff,
+        0 0 30px #ff00ff,
+        0 0 40px #ff00ff,
+        0 0 50px #ff00ff;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: xx-large;
+    width: auto;
+    background-image: linear-gradient(pink, white, pink);
 }
+
+
 .navbar{
     list-style-type: none;
   
